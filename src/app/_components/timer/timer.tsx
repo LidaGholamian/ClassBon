@@ -81,7 +81,6 @@ export const Timer = forwardRef<TimerRef, TimerProps>(
             >
               {unit}
             </TimerProgress>
-            <span>{unit}</span>
           </>
         );
       }
